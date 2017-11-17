@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100|Josefin+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+    <title>Wikipedia Search</title>
+  </head>
+  <body>
+    <div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 title-text text-center">
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Wikipedia-logo-v2-bw.svg/2000px-Wikipedia-logo-v2-bw.svg.png" alt="wikipedia logo black">
+        <h1>Search Wikipedia</h1>
+        </div>
+      </div>
+    <form class="the-search" action="wiki-search">
+      <div class="form-group">
+        <label for="search"><i class="fa fa-search fa-2x" aria-hidden="true"></i><span class="sr-only">Search:</span></label>
+        <input type="text" class="form-control" id="search" placeholder="Enter Search Topic" name="search"></input>
+      </div>
+      <button id="search-button" type="submit" class="btn btn-default form-submit">Submit</button>
+      <a href="https://en.wikipedia.org/wiki/Special:Random" class="btn btn-default" role="button" target="_blank">Random</a>
+    </form>
+    <div id="the-return" class="wrapper">
+    </div>
+  </div>
+    </div>
+    <footer class="text-center">
+      <p>&copy; Frank Wilcox</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+body {
+  background-color: #3299BB;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,.h2,.h3,.h4 {
+  font-family: font-family: 'Playfair Display', serif;
+}
+
+.title-text {
+  margin-top: 1.5em;
+}
+
+.title-text h1 {
+  display: inline-block;
+}
+
+.logo {
+  height: 75px;
+  width: auto;
+  margin-right: 1em;
+}
+
+i {
+  color: #FF9900;
+}
+
+a:hover, a:focus {
+  color: #FF9900;
+}
+
+.the-search {
+  margin-top: 5%;
+}
+
+.form-control {
+  border-radius: 0;
+  border: transparent;
+}
+
+.btn-default {
+  background-color: #FF9900;
+  color:#fff;
+  border-radius: 0;
+}
+
+.btn-default:hover {
+  background-color: #BCBCBC;
+  color: #000;
+}
+
+.search-return {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #E9E9E9;
+  color: #424242;
+}
+
+.search-return:hover {
+  border-left: 5px solid #424242;
+}
+
+.search-return .h3 {
+  color: #FF9900;
+}
+
+.search-return .h3 a:hover {
+  color: #FF9900;
+}
+
+footer {
+  margin-top: 3em;
+}
